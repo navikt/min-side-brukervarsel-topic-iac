@@ -19,5 +19,8 @@ spec:
       application: dittnav-brukernotifikasjonbestiller
       access: write
     - team: min-side
+      application: tms-event-test-producer
+      access: write
+    - team: min-side
       application: tms-varsel-authority
       access: read
