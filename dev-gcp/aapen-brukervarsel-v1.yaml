@@ -24,3 +24,6 @@ spec:
     - team: min-side
       application: tms-varsel-authority
       access: read
+    - team: min-side
+      application: tms-kafka-manager
+      access: read
