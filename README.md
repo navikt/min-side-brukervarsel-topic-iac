@@ -1,8 +1,13 @@
-# brukernotifikasjon-intern-topic-iac
+# min-side-brukervarsel-topic
 
 Repo med configurasjon for hvem som kan produsere og konsumere fra åpent brukervarsel-topic
 
 Mer info i [dokumentasjonen](https://tms-dokumentasjon.intern.nav.no/varsler).
+
+## Topics og hensikt
+
+- `aapen-brukervarsel-v1` er ment for å produsere/inaktivere eller på andre vis endre varsler.
+- `aapen-varsel-hendelse-v1` kan brukes av produsenter for å lytte på f. eks. når bruker inaktiverer en beskjed, eller status på ekstern varsling.
 
 ## Hvordan få tilgang til topic?
 

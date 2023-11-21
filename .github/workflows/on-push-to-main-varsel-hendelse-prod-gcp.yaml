@@ -1,11 +1,11 @@
-name: Deploy public brukervarsel-topic i dev-gcp
+name: Deploy varsel-hendelse-topic i prod-gcp
 
 on:
   push:
     branches:
       - main
     paths:
-      - dev-gcp/aapen-brukervarsel.yaml
+      - prod-gcp/aapen-varsel-hendelse.yaml
 
 jobs:
   build-and-publish-on-master:
@@ -15,11 +15,11 @@ jobs:
       - name: Sjekk ut koden
         uses: actions/checkout@v3
 
-      - name: 'Deploy-er til min-side i dev-gcp'
+      - name: 'Deploy-er til min-side i prod-gcp'
         uses: 'nais/deploy/actions/deploy@v1'
         env:
           REF: ${{ github.sha }}
           APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
-          CLUSTER: dev-gcp
-          RESOURCE: ./dev-gcp/aapen-brukervarsel-v1.yaml
+          CLUSTER: prod-gcp
+          RESOURCE: ./prod-gcp/aapen-varsel-hendelse.yaml
           PRINT_PAYLOAD: true

@@ -1,0 +1,30 @@
+apiVersion: kafka.nais.io/v1
+kind: Topic
+metadata:
+  name: aapen-varsel-hendelse-v1
+  namespace: min-side
+  labels:
+    team: min-side
+  annotations:
+    dcat.data.nav.no/title: "Public topic for overvåking av hendelser for mine-side varsler"
+    dcat.data.nav.no/description: "Produsenter kan f. eks. lytte på når varsler før vises eller inaktiveres, eller når ekstern varslign oppdateres."
+    dcat.data.nav.no/keyword: "varsel"
+spec:
+  pool: nav-dev
+  config:
+    cleanupPolicy: delete  # delete, compact
+    minimumInSyncReplicas: 1
+    partitions: 4
+    replication: 3  #  see min/max requirements
+    retentionBytes: -1  # -1 means unlimited
+    retentionHours: 168  # One week
+  acl:
+    - team: min-side
+      application: tms-varsel-event-gateway
+      access: write   # read, write, readwrite
+    - team: min-side
+      application: tms-kafka-manager
+      access: read
+    - team: teamdagpenger
+      application: dp-varsel
+      access: read
