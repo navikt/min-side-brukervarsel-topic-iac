@@ -13,7 +13,7 @@ spec:
     partitions: 4
     replication: 3
     retentionBytes: -1
-    retentionHours:  336 #24*14
+    retentionHours:  336 # 24*14
   acl:
     - team: min-side
       application: dittnav-brukernotifikasjonbestiller
