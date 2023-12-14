@@ -30,3 +30,6 @@ spec:
     - team: team-tiltak
       application: tiltak-notifikasjon
       access: write
+    - team: personbruker
+      application: personopplysninger-api
+      access: write
