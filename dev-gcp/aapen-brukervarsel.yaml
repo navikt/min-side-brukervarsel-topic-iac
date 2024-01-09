@@ -33,3 +33,6 @@ spec:
     - team: personbruker
       application: personopplysninger-api
       access: write
+    - team: tilleggsstonader
+      application: tilleggsstonader-soknad-api
+      access: write
