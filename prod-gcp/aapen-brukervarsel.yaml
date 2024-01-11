@@ -33,3 +33,71 @@ spec:
     - team: tilleggsstonader
       application: tilleggsstonader-soknad-api
       access: write
+    - team: dusseldorf
+      application: k9-dittnav-varsel
+      access: write
+    - team: teamfamilie
+      application: familie-ef-mottak
+      access: write
+    - team: team-esyfo
+      application: esyfovarsel
+      access: write
+    - team: pto
+      application: veilarbaktivitet
+      access: write
+    - team: pto
+      application: veilarbdialog
+      access: write
+    - team: teamforeldrepenger
+      access: write
+    - team: etterlatte
+      application: etterlatte-notifikasjoner
+      access: write
+    - team: teamdigihot
+      application: hm-ditt-nav
+      access: write
+    - team: teamdokumenthandtering
+      application: dokdistdittnav
+      access: write
+    - team: teamdokumenthandtering
+      application: varsel2
+      access: write
+    - team: helsearbeidsgiver
+      application: fritakagp
+      access: write
+    - team: pdl
+      application: pdl-fullmakt
+      access: write
+    - team: flex
+      application: flex-inntektsmelding-status
+      access: write
+    - team: teamdagpenger
+      application: dp-varsel
+      access: write
+    - team: bidrag
+      application: bidrag-reisekostnad-api
+      access: write
+    - team: teamnks
+      application: sf-brukernotifikasjon
+      access: write
+    - team: flex
+      application: spinnsyn-brukernotifikasjon
+      access: write
+    - team: flex
+      application: syfosoknadbrukernotifikasjon
+      access: write
+    - team: team-soknad
+      application: soknadsmottaker
+      access: write
+    - team: teamsykmelding
+      application: syfosmvarsel
+      access: write
+    - team: teampam
+      application: pam-brukernotifikasjon
+      access: write
+    - team: aap
+      application: soknad-api
+      access: write
+    - team: farskapsportal
+      application: farskapsportal-api
+      access: write
