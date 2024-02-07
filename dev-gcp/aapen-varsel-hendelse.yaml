@@ -28,3 +28,6 @@ spec:
     - team: teamdagpenger
       application: dp-varsel
       access: read
+    - team: min-side
+      application: tms-brannslukning
+      access: read
