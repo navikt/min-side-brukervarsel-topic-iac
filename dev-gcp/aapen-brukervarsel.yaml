@@ -108,3 +108,6 @@ spec:
     - team: farskapsportal
       application: farskapsportal-api
       access: write
+    - team: toi
+      application: rekrutteringsbistand-kandidatvarsel-api
+      access: write
