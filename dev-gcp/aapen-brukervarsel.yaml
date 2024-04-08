@@ -111,3 +111,6 @@ spec:
     - team: toi
       application: rekrutteringsbistand-kandidatvarsel-api
       access: write
+    - team: amt
+      application: amt-distribusjon
+      access: write
