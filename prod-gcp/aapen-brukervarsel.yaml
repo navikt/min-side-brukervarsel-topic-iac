@@ -108,3 +108,6 @@ spec:
     - team: team-tiltak
       application: tiltak-notifikasjon
       access: write
+    - team: toi
+      application: rekrutteringsbistand-kandidatvarsel-api
+      access: write
