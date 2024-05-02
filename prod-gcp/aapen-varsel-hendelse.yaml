@@ -31,3 +31,6 @@ spec:
     - team: min-side
       application: tms-brannslukning
       access: read
+    - team: toi
+      application: rekrutteringsbistand-kandidatvarsel-api
+      access: read
