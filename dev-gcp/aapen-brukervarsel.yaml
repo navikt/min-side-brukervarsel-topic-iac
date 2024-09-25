@@ -114,3 +114,6 @@ spec:
     - team: amt
       application: amt-distribusjon
       access: write
+    - team: paw
+      application: paw-arbeidssoekerregisteret-bekreftelse-min-side-varsler
+      access: write
