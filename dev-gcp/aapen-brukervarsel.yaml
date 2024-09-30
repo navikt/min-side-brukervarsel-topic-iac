@@ -117,3 +117,12 @@ spec:
     - team: paw
       application: paw-arbeidssoekerregisteret-bekreftelse-min-side-varsler
       access: write
+    - team: klage
+      application: kabal-api
+      access: write
+    - team: klage
+      application: klage-arkiver-journalpost
+      access: write
+    - team: klage
+      application: klage-dittnav-api
+      access: write
