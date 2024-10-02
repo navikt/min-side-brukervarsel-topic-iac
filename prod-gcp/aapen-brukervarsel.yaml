@@ -120,3 +120,6 @@ spec:
     - team: klage
       application: klage-dittnav-api
       access: write
+    - team: amt
+      application: amt-distribusjon
+      access: write
