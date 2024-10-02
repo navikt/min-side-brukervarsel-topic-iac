@@ -34,3 +34,6 @@ spec:
     - team: toi
       application: rekrutteringsbistand-kandidatvarsel-api
       access: read
+    - team: amt
+      application: amt-distribusjon
+      access: read
