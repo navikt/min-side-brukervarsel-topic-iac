@@ -37,3 +37,6 @@ spec:
     - team: amt
       application: amt-distribusjon
       access: read
+    - team: team-tiltak
+      application: tiltak-notifikasjon
+      access: read
