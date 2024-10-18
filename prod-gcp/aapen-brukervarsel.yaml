@@ -45,10 +45,10 @@ spec:
     - team: team-esyfo
       application: esyfovarsel
       access: write
-    - team: pto
+    - team: dab
       application: veilarbaktivitet
       access: write
-    - team: pto
+    - team: dab
       application: veilarbdialog
       access: write
     - team: teamforeldrepenger
