@@ -69,9 +69,6 @@ spec:
     - team: helsearbeidsgiver
       application: fritakagp
       access: write
-    - team: pdl
-      application: pdl-fullmakt
-      access: write
     - team: flex
       application: flex-inntektsmelding-status
       access: write
