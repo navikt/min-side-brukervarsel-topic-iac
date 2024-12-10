@@ -46,3 +46,6 @@ spec:
     - team: dab
       application: veilarbdialog
       access: read
+    - team: team-esyfo
+      application: esyfovarsel
+      access: read
