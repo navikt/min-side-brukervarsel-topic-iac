@@ -2,7 +2,7 @@
 
 Repo med configurasjon for hvem som kan produsere og konsumere fra åpent brukervarsel-topic
 
-Mer info i [dokumentasjonen](https://tms-dokumentasjon.intern.nav.no/varsler).
+Mer info i [dokumentasjonen](https://navikt.github.io/tms-dokumentasjon/varsler/).
 
 ## Topics og hensikt
 
