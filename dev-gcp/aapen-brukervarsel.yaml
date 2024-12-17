@@ -126,3 +126,6 @@ spec:
     - team: teamfamilie
       application: familie-ef-sak
       access: write
+    - team: teamfamilie
+      application: familie-ef-iverksett
+      access: write
