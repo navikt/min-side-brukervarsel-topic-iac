@@ -123,3 +123,6 @@ spec:
     - team: klage
       application: klage-dittnav-api
       access: write
+    - team: teamfamilie
+      application: familie-ef-sak
+      access: write

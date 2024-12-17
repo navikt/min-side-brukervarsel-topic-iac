@@ -120,3 +120,6 @@ spec:
     - team: amt
       application: amt-distribusjon
       access: write
+    - team: teamfamilie
+      application: familie-ef-sak
+      access: write
