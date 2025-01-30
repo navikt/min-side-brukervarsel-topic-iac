@@ -129,3 +129,6 @@ spec:
     - team: teamfamilie
       application: familie-ef-iverksett
       access: write
+    - team: tpts
+      application: tiltakspenger-meldekort-api
+      access: write
