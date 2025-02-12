@@ -49,3 +49,6 @@ spec:
     - team: team-esyfo
       application: esyfovarsel
       access: read
+    - team: paw
+      application: paw-arbeidssoekerregisteret-bekreftelse-min-side-varsler
+      access: read
