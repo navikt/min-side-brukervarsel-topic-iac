@@ -132,3 +132,6 @@ spec:
     - team: tpts
       application: tiltakspenger-meldekort-api
       access: write
+    - team: k9saksbehandling
+      application: ung-deltakelse-opplyser
+      access: write 

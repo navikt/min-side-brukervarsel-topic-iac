@@ -126,3 +126,6 @@ spec:
     - team: teamfamilie
       application: familie-ef-iverksett
       access: write
+    - team: k9saksbehandling
+      application: ung-deltakelse-opplyser
+      access: write
