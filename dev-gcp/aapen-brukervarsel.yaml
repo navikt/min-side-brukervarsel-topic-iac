@@ -134,4 +134,7 @@ spec:
       access: write
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
-      access: write 
+      access: write
+    - team: poao
+      application: veilarboppfolging
+      access: write
