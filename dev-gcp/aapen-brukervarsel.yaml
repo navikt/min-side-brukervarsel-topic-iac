@@ -114,6 +114,9 @@ spec:
     - team: paw
       application: paw-arbeidssoekerregisteret-bekreftelse-min-side-varsler
       access: write
+    - team: paw
+      application: paw-arbeidssoekerregisteret-min-side-varsler
+      access: write
     - team: klage
       application: kabal-api
       access: write

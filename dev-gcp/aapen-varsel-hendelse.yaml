@@ -52,6 +52,9 @@ spec:
     - team: paw
       application: paw-arbeidssoekerregisteret-bekreftelse-min-side-varsler
       access: read
+    - team: paw
+      application: paw-arbeidssoekerregisteret-min-side-varsler
+      access: read
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
       access: read 
