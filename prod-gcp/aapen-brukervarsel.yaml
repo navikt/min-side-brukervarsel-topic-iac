@@ -132,3 +132,6 @@ spec:
     - team: poao
       application: veilarboppfolging
       access: write
+    - team: paw
+      application: paw-arbeidssoekerregisteret-min-side-varsler
+      access: write
