@@ -135,3 +135,6 @@ spec:
     - team: paw
       application: paw-arbeidssoekerregisteret-min-side-varsler
       access: write
+    - team: tpts
+      application: tiltakspenger-meldekort-api
+      access: write
