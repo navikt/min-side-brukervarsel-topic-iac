@@ -138,3 +138,6 @@ spec:
     - team: tpts
       application: tiltakspenger-meldekort-api
       access: write
+    - team: aap
+      application: meldekort-backend
+      access: write
