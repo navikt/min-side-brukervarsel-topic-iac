@@ -81,6 +81,9 @@ spec:
     - team: teamdagpenger
       application: dp-varsel
       access: write
+    - team: teamdagpenger
+      application: dp-meldekortregister
+      access: write
     - team: bidrag
       application: bidrag-reisekostnad-api
       access: write
