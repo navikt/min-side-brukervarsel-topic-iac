@@ -30,6 +30,9 @@ spec:
     - team: min-side
       application: tms-kafka-manager
       access: read
+    - team: min-side
+      application: tms-kafka-dashboard
+      access: read
     - team: personbruker
       application: personopplysninger-api
       access: write

@@ -25,6 +25,9 @@ spec:
     - team: min-side
       application: tms-kafka-manager
       access: read
+    - team: min-side
+      application: tms-kafka-dashboard
+      access: read
     - team: teamdagpenger
       application: dp-varsel
       access: read
@@ -57,4 +60,4 @@ spec:
       access: read
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
-      access: read 
+      access: read
