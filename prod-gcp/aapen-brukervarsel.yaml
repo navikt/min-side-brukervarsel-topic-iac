@@ -25,6 +25,9 @@ spec:
       application: tms-brannslukning
       access: write
     - team: min-side
+      application: tms-endre-kontonummer
+      access: write
+    - team: min-side
       application: tms-varsel-authority
       access: read
     - team: min-side
