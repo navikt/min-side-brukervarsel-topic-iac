@@ -153,3 +153,6 @@ spec:
     - team: aap
       application: meldekort-backend
       access: write
+    - team: teamsykmelding
+      application: syfosmvarsel
+      access: write
