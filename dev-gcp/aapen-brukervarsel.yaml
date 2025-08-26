@@ -156,3 +156,6 @@ spec:
     - team: teamsykmelding
       application: syfosmvarsel
       access: write
+    - team: repr
+      application: repr-fullmakt
+      access: write
