@@ -61,3 +61,6 @@ spec:
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
       access: read
+    - team: dusseldorf
+      application: k9-dittnav-varsel
+      access: write
