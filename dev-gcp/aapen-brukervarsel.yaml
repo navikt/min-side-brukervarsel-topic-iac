@@ -159,3 +159,6 @@ spec:
     - team: repr
       application: repr-fullmakt
       access: write
+    - team: teammelosys
+      application: melosys-skjema-api
+      access: write
