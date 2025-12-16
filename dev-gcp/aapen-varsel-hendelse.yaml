@@ -61,3 +61,6 @@ spec:
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
       access: read
+    - team: min-side
+      application: tms-endre-kontonummer
+      access: read
