@@ -150,6 +150,9 @@ spec:
     - team: k9saksbehandling
       application: ung-deltakelse-opplyser
       access: write
+    - team: k9saksbehandling
+      application: ung-sak
+      access: write
     - team: poao
       application: veilarboppfolging
       access: write
