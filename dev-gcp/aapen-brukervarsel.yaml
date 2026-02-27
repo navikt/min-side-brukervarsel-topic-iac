@@ -151,7 +151,7 @@ spec:
       application: ung-deltakelse-opplyser
       access: write
     - team: k9saksbehandling
-      application: ung-sak
+      application: ung-brukerdialog
       access: write
     - team: poao
       application: veilarboppfolging
