@@ -42,6 +42,9 @@ spec:
     - team: tilleggsstonader
       application: tilleggsstonader-soknad-api
       access: write
+    - team: tilleggsstonader
+      application: tilleggsstonader-sak
+      access: write
     - team: dusseldorf
       application: k9-dittnav-varsel
       access: write
