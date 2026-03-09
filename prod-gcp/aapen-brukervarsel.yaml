@@ -142,7 +142,7 @@ spec:
       application: ung-deltakelse-opplyser
       access: write
     - team: k9saksbehandling
-      application: ung-brukerdialog
+      application: ung-brukerdialog-api
       access: write
     - team: poao
       application: veilarboppfolging
