@@ -64,3 +64,6 @@ spec:
     - team: min-side
       application: tms-endre-kontonummer
       access: read
+    - team: ufore
+      application: ufore-varsler
+      access: read
