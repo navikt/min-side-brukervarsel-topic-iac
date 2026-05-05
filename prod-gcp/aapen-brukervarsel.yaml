@@ -165,3 +165,6 @@ spec:
     - team: teammelosys
       application: melosys-skjema-api
       access: write
+    - team: ufore
+      application: ufore-varsler
+      access: write
