@@ -63,9 +63,6 @@ spec:
     - team: teamforeldrepenger
       application: fpoversikt
       access: write
-    - team: etterlatte
-      application: etterlatte-notifikasjoner
-      access: write
     - team: teamdigihot
       application: hm-ditt-nav
       access: write
