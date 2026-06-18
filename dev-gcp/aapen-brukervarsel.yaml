@@ -174,3 +174,6 @@ spec:
     - team: ufore
       application: ufore-varsler
       access: write
+    - team: ufore
+      application: ufore-varsler-send-jobb
+      access: write
