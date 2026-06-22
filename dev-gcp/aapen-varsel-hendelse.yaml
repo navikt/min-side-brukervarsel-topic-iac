@@ -67,3 +67,6 @@ spec:
     - team: ufore
       application: ufore-varsler
       access: read
+    - team: arbeidsforhold
+      application: aareg-arbeidstaker-varsel
+      access: read

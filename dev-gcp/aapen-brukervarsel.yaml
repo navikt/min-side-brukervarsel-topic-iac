@@ -177,3 +177,6 @@ spec:
     - team: ufore
       application: ufore-varsler-send-jobb
       access: write
+    - team: arbeidsforhold
+      application: aareg-arbeidstaker-varsel
+      access: write
