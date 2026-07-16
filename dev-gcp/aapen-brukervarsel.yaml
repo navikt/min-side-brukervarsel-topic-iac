@@ -180,3 +180,6 @@ spec:
     - team: arbeidsforhold
       application: aareg-arbeidstaker-varsel
       access: write
+    - team: team-esyfo
+      application: syfo-budstikka
+      access: write
