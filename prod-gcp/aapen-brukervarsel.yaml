@@ -167,4 +167,7 @@ spec:
       access: write
     - team: ufore
       application: ufore-varsler
+    - team: team-esyfo
+      application: syfo-budstikka
+      access: write
       access: write
