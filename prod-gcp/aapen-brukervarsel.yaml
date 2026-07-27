@@ -168,3 +168,6 @@ spec:
     - team: ufore
       application: ufore-varsler
       access: write
+    - team: team-esyfo
+      application: syfo-budstikka
+      access: write
